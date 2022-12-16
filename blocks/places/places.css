@@ -1,0 +1,13 @@
+.places {
+  margin: auto;
+  list-style-type: none;
+  padding-left: 0;
+  display: grid;
+  gap: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    gap: 73px;
+  }
+}

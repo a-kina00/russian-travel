@@ -1,0 +1,10 @@
+.place__website__link {
+  border-bottom: 1px solid white;
+}
+
+@media screen and (max-width: 768px) {
+  .place__website__link {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

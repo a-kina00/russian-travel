@@ -1,0 +1,9 @@
+.link {
+  text-decoration: none;
+  color: white;
+  transition: all 0.25s ease;
+}
+
+.link:hover {
+  color: rgba(255, 255, 255, .8);
+}

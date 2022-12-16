@@ -1,0 +1,12 @@
+.header__lang-link {
+  display: inline;
+  margin-left: 18px;
+}
+
+.header__lang-link [id="ru"] {
+  border-bottom: 1px solid white;
+}
+
+.header__lang-link:first-of-type {
+  margin-left: 0px;
+}

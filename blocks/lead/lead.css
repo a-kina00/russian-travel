@@ -1,0 +1,9 @@
+.lead {
+  margin-top: 56px;
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    margin-top: 48px;
+  }
+}
