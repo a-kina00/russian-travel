@@ -3,6 +3,18 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0 48px 0;
+}
+
+@media screen and (max-width: 788px) {
+  .header {
+    margin: 0 24px 0;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .header {
+    margin: 0 16px 0;
+  }
 }

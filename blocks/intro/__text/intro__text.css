@@ -7,13 +7,13 @@
   margin: 40px 0 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1044px) {
   .intro__text {
     margin: 40px 24px 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 788px) {
   .intro__text {
     margin: 40px 16px 0;
   }

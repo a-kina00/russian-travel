@@ -8,14 +8,8 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 788px) {
   .lead__caption {
     margin: 8px 24px 0;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .lead__caption {
-    margin: 8px 16px 0;
   }
 }
