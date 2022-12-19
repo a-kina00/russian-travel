@@ -1,4 +1,14 @@
 .header {
+<<<<<<< HEAD
+    width: 100%;
+    border-bottom: 1px solid #545454;
+    margin-top: 45px;
+}
+
+.header__logo {
+    margin-bottom: 40px;
+}
+=======
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -18,3 +28,4 @@
     margin: 0 16px 0;
   }
 }
+>>>>>>> 6ef28029b121a1c48b2c2f2ae1cd063f0a3eb1fc

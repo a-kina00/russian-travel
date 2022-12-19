@@ -1,6 +1,37 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
+<<<<<<< HEAD
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/profile/profile.css);
+
+@import url(../blocks/cards/cards.css);
+
+@import url(../blocks/edit-page/edit-page.css);
+
+@import url(../blocks/footer/footer.css);
+
+.section {
+  max-width: 880px;
+}
+
+.page {
+  box-sizing: border-box;
+  font-family: 'Inter', 'Arial', sans-serif;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 60px;
+}
+
+/*
+* {
+  border: 1px solid red;
+}*/
+=======
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/section/section.css);
@@ -49,3 +80,4 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+>>>>>>> 6ef28029b121a1c48b2c2f2ae1cd063f0a3eb1fc
