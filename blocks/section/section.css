@@ -1,0 +1,21 @@
+.section {
+  margin: 92px 148px 0;
+}
+
+@media screen and (max-width: 1044px) {
+  .section {
+    margin: 88px 48px 0;
+  }
+}
+
+@media screen and (max-width: 788px) {
+  .section {
+    margin: 88px 0;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .section {
+    margin: 64px 0;
+  }
+}

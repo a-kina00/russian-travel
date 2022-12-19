@@ -1,4 +1,5 @@
 .footer {
+<<<<<<< HEAD
   width: 100%;
   margin-top: 66px;
 }
@@ -12,3 +13,26 @@
   line-height: 22px;
   color: #545454;
 }
+=======
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 92px 48px 0;
+}
+
+@media screen and (max-width: 788px) {
+  .footer {
+    margin: 64px 24px 0;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 16px;
+  }
+}
+>>>>>>> 6ef28029b121a1c48b2c2f2ae1cd063f0a3eb1fc
