@@ -12,7 +12,7 @@
   <header class="header">
     <img class="header__logo" src="./images/header-logo.svg" alt="Логотип">
     <ul class="header__lang-section">
-      <li class="header__lang-option"><a id="ru" class="header__lang-link link" href="#">Ru</a></li>
+      <li class="header__lang-option header__lang-option_active"><a id="ru" class="header__lang-link link" href="#">Ru</a></li>
       <li class="header__lang-option"><a id="eng" class="header__lang-link link" href="#">En</a></li>
     </ul>
   </header>
@@ -65,12 +65,12 @@
     </section>
 
 
-    <section class="section section_type_places">
+    <section class="section places">
       <div class="place">
         <h2 class="place__title">Куршская коса</h2>
         <div class="place__website">
-          <p class="place__website__url-heading">URL</p>
-          <a class="place__website__link link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
+          <p class="place__url-heading">URL</p>
+          <a class="place__link link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
         </div>
         <img class="place__image" src="./images/place-kosa.jpg" alt="Куршская коса">
         <div class="place__paragraphs">
@@ -87,8 +87,8 @@
       <div class="place">
         <h2 class="place__title">Кольский</h2>
         <div class="place__website">
-          <p class="place__website__url-heading">URL</p>
-          <a class="place__website__link link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+          <p class="place__url-heading">URL</p>
+          <a class="place__link link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
             target="_blank">National Geographic</a>
         </div>
         <img class="place__image" src="./images/place-kolsky.jpg" alt="Куршская коса">
@@ -107,9 +107,8 @@
       <div class="place">
         <h2 class="place__title">Алтай</h2>
         <div class="place__website">
-          <p class="place__website__url-heading">URL</p>
-          <a class="place__website__link link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
-            target="_blank">YouTube</a>
+          <p class="place__url-heading">URL</p>
+          <a class="place__link link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank">YouTube</a>
         </div>
         <img class="place__image" src="./images/place-altai.jpg" alt="Куршская коса">
         <div class="place__paragraphs">
@@ -126,9 +125,8 @@
       <div class="place">
         <h2 class="place__title">Зимний Байкал</h2>
         <div class="place__website">
-          <p class="place__website__url-heading">URL</p>
-          <a class="place__website__link link" href="https://vk.com/baikalmile"
-            target="_blank">https://vk.com/baikalmile</a>
+          <p class="place__url-heading">URL</p>
+          <a class="place__link link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
         </div>
         <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Куршская коса">
         <div class="place__paragraphs">
@@ -146,8 +144,8 @@
       <div class="place">
         <h2 class="place__title">Карелия</h2>
         <div class="place__website">
-          <p class="place__website__url-heading">URL</p>
-          <a class="place__website__link link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
+          <p class="place__url-heading">URL</p>
+          <a class="place__link link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
         </div>
         <img class="place__image" src="./images/place-karelia.jpg" alt="Куршская коса">
         <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
@@ -171,13 +169,15 @@
   </main>
 
   <footer class="footer">
-    <nav class="footer__links">
-      <a class="footer__link link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-      <a class="footer__link link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-      <a class="footer__link link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-      <a class="footer__link link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-      <a class="footer__link link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+    <nav class="footer__navigation">
+      <ul class="footer__links">
+        <li class="footer__link"><a class="link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+        <li class="footer__link"><a class="link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+        <li class="footer__link"><a class="link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+        <li class="footer__link"><a class="link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+        <li class="footer__link"><a class="link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+      </ul>
     </nav>
-    <p class="footer__copyright">&copy; 2022. Кручинкина Анастасия</p>
+    <p class="footer__copyright">&copy; 2022. Анастасия К.</p>
   </footer>
 </body>

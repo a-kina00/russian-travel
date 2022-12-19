@@ -1,1 +1,11 @@
+@media screen and (max-width: 788px) {
+  .intro {
+    margin-left: 24px;
+  }
+}
 
+@media screen and (max-width: 340px) {
+  .intro {
+    margin-left: 16px;
+  }
+}

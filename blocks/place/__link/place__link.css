@@ -1,4 +1,4 @@
-.place__website__link {
+.place__link {
   border-bottom: 1px solid white;
   font-weight: 400;
   font-size: 18px;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .place__website__link {
+  .place__link {
     font-size: 18px;
     line-height: 22px;
   }

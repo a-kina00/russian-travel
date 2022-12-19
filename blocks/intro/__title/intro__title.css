@@ -6,18 +6,6 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1044px) {
-  .intro__title {
-    margin: 0 24px 0;
-  }
-}
-
-@media screen and (max-width: 788px) {
-  .intro__title {
-    margin: 0 16px 0;
-  }
-}
-
 @media screen and (max-width: 340px) {
   .intro__title {
     max-width: 250px;
