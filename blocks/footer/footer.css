@@ -1,19 +1,4 @@
 .footer {
-<<<<<<< HEAD
-  width: 100%;
-  margin-top: 66px;
-}
-
-.footer__signature {
-  margin: 0;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  color: #545454;
-}
-=======
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -35,4 +20,3 @@
     margin-left: 16px;
   }
 }
->>>>>>> 6ef28029b121a1c48b2c2f2ae1cd063f0a3eb1fc
